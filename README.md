@@ -3,7 +3,7 @@
 
 ## Overview
 
-`ExportIcons.jsx` is a Photoshop JSX script designed to streamline the export of icons for the various resolutions need to make a BG3 UI icon in modkit. The script starts by exporting a 1000x1000 pixel "original" image and then creates scaled-down versions for `380x380px`, `144x144px`, and `64x64px` resolutions. 
+`ExportIcons.jsx` is a Photoshop JSX script designed to streamline the export of icons for the 3 resolutions need to make a BG3 UI icons in modkit. The script exports the "original" 1000x1000px image and scaled-down versions for `380x380px`, `144x144px`, and `64x64px` resolutions needed for Tooltip and Controller UIs. 
 
 ## Guide
 - Visit my guide on mod.io for details
@@ -58,10 +58,10 @@
 ## Troubleshooting
 ### "Need Administrator Privileges" Error
 If you're unable to copy the script to the Photoshop Scripts folder:
-1. Run Photoshop as Administrator.
-2. Use PowerShell to copy the file:
+1. Run PowerShell as Administrator. 
+2. Use PowerShell to copy the file: (Update command line to your version of Photoshop, Adobe Photoshop 2023 is used in this example)
    ```powershell
-   Copy-Item -Path "C:\Path\To\ExportIcons.jsx" -Destination "C:\Program Files\Adobe\Adobe Photoshop 2023\Presets\Scripts" -Force
+   Copy-Item -Path "BG3_ExportIcons.jsx" -Destination "C:\Program Files\Adobe\Adobe Photoshop 2023\Presets\Scripts" -Force
    ```
 
 ### Blurry Images

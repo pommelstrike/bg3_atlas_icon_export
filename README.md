@@ -3,7 +3,7 @@
 
 ## Overview
 
-`BG3_ExportIcons` is a Photoshop JSX script designed to streamline the export of icons for the 3 resolutions need to make a BG3 UI icons in modkit. The script exports the "original" 1000x1000px image and scaled-down versions for `380x380px`, `144x144px`, and `64x64px` resolutions needed for Tooltip and Controller UIs. 
+`BG3_ExportIcons` is a Photoshop JSX script designed to streamline the export of icons for the 3 resolutions need to make a BG3 UI icons in modkit. The script exports the "original" 1000x1000px image and scaled-down versions for `380x380px`, `144x144px`, and `64x64px` resolutions needed for Tooltip and Controller UIs and Automatically organizes exported images into distinct folders.
 
 ## Guide
 - Visit my guide on mod.io for details

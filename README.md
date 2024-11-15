@@ -3,7 +3,10 @@
 
 ## Overview
 
-`ExportIcons.jsx` is a Photoshop script designed to streamline the export of icons for various resolutions. The script starts by exporting a 1000x1000 pixel "original" image and then creates scaled-down versions for `380x380px`, `144x144px`, and `64x64px` resolutions. This script is particularly useful for game developers or designers who need consistent icon sizes.
+`ExportIcons.jsx` is a Photoshop JSX script designed to streamline the export of icons for the various resolutions need to make a BG3 UI icon in modkit. The script starts by exporting a 1000x1000 pixel "original" image and then creates scaled-down versions for `380x380px`, `144x144px`, and `64x64px` resolutions. 
+
+## Guide
+- Visit my guide on mod.io for details
 
 ## Features
 - Exports an "original" image at 1000x1000 pixels.
@@ -22,13 +25,12 @@
 ## Installation
 1. Place the `ExportIcons.jsx` file in the Photoshop Scripts folder:
    - **Windows**: `C:\Program Files\Adobe\Adobe Photoshop 2023\Presets\Scripts`
-   - **Mac**: `/Applications/Adobe Photoshop 2023/Presets/Scripts`
    - Alternatively, save it in a location of your choice and load it manually (see "Usage").
 
 2. Restart Photoshop to load the script into the `File > Scripts` menu.
 
 ## Usage
-1. Open a Photoshop document you want to export.
+1. Open a Photoshop document you want to export. The .PSD needs to be in 1000x1000 
 2. Run the script:
    - **Menu**: Go to `File > Scripts > ExportIcons`.
    - **Browse**: Alternatively, select `File > Scripts > Browse` and locate the script file.
@@ -63,7 +65,7 @@ If you're unable to copy the script to the Photoshop Scripts folder:
    ```
 
 ### Blurry Images
-Ensure the original document resolution is set appropriately before running the script.
+Ensure the original document resolution & canva (1000x1000) is set appropriately before running the script.
 
 ## License
 This script is provided as-is under the MIT License. See `LICENSE` for details.

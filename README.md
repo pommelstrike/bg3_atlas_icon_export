@@ -1,5 +1,5 @@
 
-# ExportIcons.jsx Script
+# ExportIcons.jsx Script for Adobe Photoshop 2020+
 
 ## Overview
 

@@ -23,9 +23,8 @@
 - Excludes metadata for optimized export.
 
 ## Installation
-
-Go to https://github.com/pommelstrike/bg3_atlas_icon_export/releases/tag/jsx
 To download Photoshop Script
+Go to https://github.com/pommelstrike/bg3_atlas_icon_export/releases/tag/jsx
 
 1. Place the `ExportIcons.jsx` file in the Photoshop Scripts folder:
    - **Windows**: `C:\Program Files\Adobe\Adobe Photoshop 2023\Presets\Scripts`

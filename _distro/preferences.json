@@ -1,0 +1,12 @@
+{
+  "bg3_data": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Baldurs Gate 3\\Data",
+  "temp_dir": "C:\\pomatlas\\temp",
+  "output_path": "d:\\icons\\output",
+  "zip_output_path": "d:\\icons\\output\\zips",
+  "preview_size": "256",
+  "log_enabled": true,
+  "log_directory": "d:\\icons\\logs",
+  "log_level": "DEBUG",
+  "max_log_files": 10,
+  "texconv_path": "d:\\icons\\texconv\\texconv.exe"
+}
